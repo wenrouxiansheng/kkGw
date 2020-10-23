@@ -112,7 +112,7 @@
 			/* right-box2 */
 			.right-box2{margin-top: 30px;margin-bottom: 30px;}
 			.right-box2 ul{margin-top: 10px;}
-			.right-box2 li{line-height: 30px;max-height: 60px;overflow: hidden;font-size: 14px;transition: .3s;color: #333333;}
+			.right-box2 li{line-height: 30px;max-height: 60px;overflow: hidden;font-size: 14px;transition: .3s;color: #333333;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 			.right-box2 li span{width: 15px;height: 15px;color: white;font-size: 14px;line-height: 15px;display: inline-block;text-align: center;margin-right: 10px;}
 			.right-box2 li:hover a{color: #ff9700;text-decoration: underline;}
 			.right-box2 li .rightSpan1{background-color: #ed4200;}
