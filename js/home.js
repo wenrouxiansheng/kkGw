@@ -279,8 +279,10 @@ $(function() {
 	function asideSpBox(e){
 		if(e.target.tagName=="LI"){
 			var f=$(e.target).attr("flag");
-			$(".aside-spBox video").css("display","none");
-			$(".aside-spBox .video"+f).css("display","block");
+			$(".aside-spBox li").removeClass();
+			$(e.target).addClass("ac");
+			$(".aside-spBox>div").css("display","none");
+			$(".aside-spBox>div.video"+f).css("display","block");
 		}
 	}
 	$(".aside-spBox ul").bind("click",asideSpBox);

@@ -509,15 +509,17 @@ button{outline: none;cursor: pointer;}
 .aside-spBox{margin-top: 30px;}
 .aside-spBox ul{height: 40px;}
 .aside-spBox li{float: left;font-size: 13px;color: #999;margin: 0px 5px 0px 5px;cursor: pointer;}
+.aside-spBox li.ac{color: #097bf8;}
 .aside-spBox li a{color: #097bf8;}
-.aside-spBox video{width: 100%;height: 175px;margin-top: 10px;display: none;animation: videoa .3s;}
-.aside-spBox video.video1{display: block;}
+.aside-spBox>div{width: 100%;height: auto;display: none;animation: videoa .3s;}
+.aside-spBox>div video{width: 100%;height: 175px;}
+.aside-spBox>div.video1{display: block;}
 @keyframes videoa{
 	from{opacity: 0;transform: translateX(5%);}
 	to{opacity: 1;transform: translateX(0);}
 }
 .aside-spBox p{margin-top: 20px;font-size: 15px;}
-.aside-spBox button{display: block;margin: 0 auto;background-color:#097bf8;color: white;padding: 5px 25px 5px 25px;border: 0px;border-radius: 15px;font-size: 16px;margin-top: 10px;}
+.aside-spBox>a{display:block;margin: 0 auto;background-color:#097bf8;color: white;padding: 5px 25px 5px 25px;border: 0px;border-radius: 15px;font-size: 16px;margin-top: 15px;text-align: center;width: 180px;}
 /* aside-fontBox */
 .aside-fontBox{margin-top: 65px;padding: 15px 15px 20px 15px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/subj-bg4.png);background-color: 100% 100%;}
 .aside-fontBox h3{text-align: center;font-size: 18px;}
