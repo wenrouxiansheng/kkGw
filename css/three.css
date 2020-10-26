@@ -1,5 +1,6 @@
 *{margin: 0px;padding: 0px;box-sizing: border-box;font-family: "微软雅黑";}
-			.allBox{max-width: 1920px;min-width: 1200px;margin: 0 auto;background-color: white;height: auto;}
+			.allBox{max-width: 1920px;min-width: 1200px;margin: 0 auto;background-color: #f4f6f9;height: auto;}
+			header{background-color: white;}
 			ul{list-style: none;}
 			input{outline: none;}
 			a{text-decoration: none;color: #333;}
@@ -48,31 +49,6 @@
 			.body .ditu a:hover{text-decoration: underline;}
 			.body .ditu strong{font-weight: initial;}
 			.body .ditu em{font-style: initial;padding: 0px 3px 0px 3px;}
-			/* right */
-			.body .right>img{margin-top: 20px;}
-			.body .right h3{background: url(../img/er/right-icon.png) no-repeat left center;padding-left: 10px;font-size: 20px;}
-			.right-box1{margin-top: 30px;}
-			.right-box1 ul{margin-top: 10px;}
-			.right-box1 li{height: 30px;line-height: 30px;padding: 0px 20px 0px 20px;background-color: #f3f3f3;color: #757575;display: inline-block;font-size: 14px;border-radius: 20px;margin-top: 10px;transition: .3s ease-in-out;margin-right: 16px;text-align: center;}
-			.right-box1 li:hover{background-color: #ff9700;}
-			.right-box1 li:hover a{color: white;}
-			.right-box1L1{width: 111px;}
-			.right-box1L2{width: 168px;}
-			/* right-box2 */
-			.right-box2{margin-top: 30px;margin-bottom: 30px;}
-			.right-box2 ul{margin-top: 10px;}
-			.right-box2 li{line-height: 30px;max-height: 60px;overflow: hidden;font-size: 14px;transition: .3s;color: #333333;}
-			.right-box2 li span{width: 15px;height: 15px;color: white;font-size: 14px;line-height: 15px;display: inline-block;text-align: center;margin-right: 10px;}
-			.right-box2 li:hover a{color: #ff9700;text-decoration: underline;}
-			.right-box2 li .rightSpan1{background-color: #ed4200;}
-			.right-box2 li .rightSpan2{background-color: #ff6e10;}
-			.right-box2 li .rightSpan3{background-color: #ff9900;}
-			.right-box2 li .rightSpan4{background-color: #bababa;}	
-			.right-box2 li .rightSpan5{background-color: #bababa;}
-			/* right-box3 */
-			.right-box3 li{padding: 0px 10px 0px 10px;float: left;font-size: 14px;color:#666;margin-top: 10px;transition: .3s;}
-			.right-box3 .liBorder{border-right: solid 1px #e5e5e5;}
-			.right-box3 li:hover a{color:#ff9700;}
 			/* left TextTime */
 			.body .left .section h1{font-size: 24px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;height: 85px;line-height: 85px;}
 			.body .left .TextTime{font-size: 14px;color: #999;height: 20px;line-height: 20px;}
@@ -94,7 +70,7 @@
 			.body .left .cont2 table  tbody tr:hover{background-color: #097bf8;color: white;}
 			.body .left .cont2 img{display: block;margin: 0 auto;margin-top: 20px;}
 			/* tuiGuang */
-			.tuiGuang{width: 100%;height:auto;margin-top: 30px;}
+			.tuiGuang{width: 100%;height:auto;padding-top: 30px;}
 			.tuiGuang p {font-size: 14px;color: #666;margin-top: 20px;}
 			.tuiGuang p strong{font-weight: normal;}
 			.tuiGuang table{width: 100%;max-height: 475px;text-align: center;font-size: 14px;max-height:440px;margin-top: 20px;}
@@ -105,23 +81,23 @@
 			.tuiGuang table  tbody td:hover a{color: #ff9700 !important;}
 			.tuiGuang table td{text-align: left;}
 			/* flagBox */
-			.flagBox{width: 100%;height: 40px;font-size: 15px;color: #9f9f9f;margin-top: 20px;overflow: hidden;}
+			.flagBox{width: 100%;height: 40px;font-size: 15px;color: #9f9f9f;padding-top: 20px;overflow: hidden;}
 			.flagBox span{display: inline-block;padding: 2px 10px 2px 10px;background-color: #eeeeee;border-radius:15px;height: 20px;line-height: 16px;margin-right: 10px;}
 			/* pagingBox */
-			.pagingBox{width: 100%;height: 50px;line-height: 50px;font-size: 14px;color: #333;}
+			.pagingBox{width: 100%;height: 90px;line-height: 50px;font-size: 14px;color: #333;}
 			.pagingBox div{width:49%;float: left;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 			.pagingBox div span:hover{color: #ff9700 !important;}
 			.pagingBox div:nth-of-type(2){text-align: right;margin-left: 2%;}
 			/* h4 */
 			.body .left h4{background: url(../img/er/right-icon.png)no-repeat left center;padding-left: 15px;font-size: 18px;}
 			/* recommend */
-			.recommend{margin-top: 60px;}
-			.recommend div{max-height: 150px;margin-top: 20px;}
+			.recommend{margin-top: 20px;height: 230px;background-color: white;padding: 20px;}
+			.recommend div{max-height: 150px;margin-top: 15px;}
 			.recommend p{width: 45%;height: 30px;line-height: 30px;font-size: 14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;cursor: pointer;float: left;}
 			.recommend p:nth-of-type(even){margin-left: 10%;}
 			.recommend div p:hover a{color: #ff9700 !important;}
 			/* curriculum */
-			.curriculum{margin-top: 50px;}
+			.curriculum{margin-top: 20px;background-color: white;padding: 20px 20px 40px 20px;}
 			.curriculum table{width: 100%;text-align: center;}
 			.curriculum h4{margin-bottom: 20px;}
 			.curriculum table tr{height: 40px;}
@@ -140,7 +116,8 @@
 			.statement{color:#bbbbbb;font-size: 14px;margin-top: 40px;}
 			.statement p{line-height: 30px;}
 			/* body kcList */
-			.kcList{width: 100%;height: 180px;font-size: 14px;color: #bbbbbb;border: solid 1px #eee;padding: 10px;margin-top: 30px;}
+			.kcList{width: 100%;font-size: 14px;margin-top: 0px;background-color: white;height: 220px;padding-top: 20px;}
+			.kcList-box{width: 1200px;margin: 0 auto;border: solid 1px #eee;height: 180px;padding: 10px;color: #bbbbbb;}
 			.kcList a{color: #bbbbbb;}
 			.kcList dl{display: block;width: 100%;height: 30px;overflow: hidden;}
 			.kcList dt,dd{float:left;height:30px;line-height: 30px;}
@@ -150,24 +127,21 @@
 			.kcList .more{position: relative;font-size: 14px;float: right;margin-right: 90px;}
 			.kcList  .more img{position: absolute;top: 5px;right: -15px;}
 			.kcList dd{padding: 0px 10px 0px 10px;}
-			/* right-box3 */
-			.right-box3{margin-top: 30px;}
-			.right-box3 li{padding: 0px 10px 0px 10px;float: left;font-size: 14px;color:#666;margin-top: 10px;transition: .3s;}
-			.right-box3 .liBorder{border-right: solid 1px #e5e5e5;}
-			.right-box3 li:hover{color:#ff9700;}
+			
 			/* ditu */
 			.body .ditu a:hover{text-decoration: underline !important;}
 			/* right */
 			.body .right h3{background: url(../img/er/right-icon.png) no-repeat left center;padding-left: 10px;font-size: 20px;}
-			.right-box1{margin-top: 30px;}
-			.right-box1 ul{margin-top: 10px;}
-			.right-box1 li{height: 30px;line-height: 30px;padding: 0px 20px 0px 20px;background-color: #f3f3f3;color: #757575;display: inline-block;font-size: 14px;border-radius: 20px;margin-top: 10px;transition: .3s ease-in-out;margin-right: 16px;text-align: center;}
+			.body .right>img{margin-top: 20px;}
+			.right-box1{margin-top: 0px;background-color: white;padding: 20px;}
+			.right-box1 ul{margin-top: 10px;display: flex;justify-content: space-between;flex-wrap: wrap;}
+			.right-box1 li{height: 30px;line-height: 30px;padding: 0px 20px 0px 20px;background-color: #f3f3f3;color: #757575;display: inline-block;font-size: 14px;border-radius: 20px;margin-top: 10px;transition: .3s ease-in-out;text-align: center;}
 			.right-box1 li:hover{background-color: #ff9700;}
 			.right-box1 li:hover a{color: white;}
 			.right-box1L1{width: 111px;}
 			.right-box1L2{width: 168px;}
 			/* right-box2 */
-			.right-box2{margin-top: 30px;margin-bottom: 30px;}
+			.right-box2{margin-top: 20px;background-color: white;padding: 20px;}
 			.right-box2 ul{margin-top: 10px;}
 			.right-box2 li{line-height: 30px;max-height: 60px;overflow: hidden;font-size: 14px;transition: .3s;color: #333333;max-width:339px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 			.right-box2 li span{width: 15px;height: 15px;color: white;font-size: 14px;line-height: 15px;display: inline-block;text-align: center;margin-right: 10px;}
@@ -178,6 +152,13 @@
 			.right-box2 li .rightSpan4{background-color: #bababa;}	
 			.right-box2 li .rightSpan5{background-color: #bababa;}
 			/* right-box3 */
+			.right-box3{margin-top: 20px;background-color: white;padding: 20px;}
 			.right-box3 li{padding: 0px 10px 0px 10px;float: left;font-size: 14px;color:#666;margin-top: 10px;transition: .3s;}
-			.right-box3 .liBorder{border-right: solid 1px #e5e5e5;}
+			.right-box3 li:hover{color:#ff9700;}
+			.right-box3 li{padding: 0px 10px 0px 10px;float: left;font-size: 14px;color:#666;margin-top: 10px;transition: .3s;}
 			.right-box3 li:hover a{color:#ff9700;}
+			/* 更改背景颜色 */
+			.body .left .section,
+			.body .left .tuiGuang,
+			.body .left .flagBox,
+			.body .left .pagingBox{background-color: white;padding: 20px;}
