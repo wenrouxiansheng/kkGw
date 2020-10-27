@@ -62,7 +62,7 @@
 			.body .left .cont1 span:nth-of-type(1){max-width: 75%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color: #333333;}
 			.body .left .cont1 a span{min-width: 15%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color: #097bf8 !important;cursor: pointer;}
 			/* cont2 */
-			.body .left .cont2 p{margin-top:20px;line-height: 30px;font-size: 14px;color: #666;}
+			.body .left .cont2 p{margin-top:10px;line-height: 30px;font-size: 14px;color: #666;}
 			.body .left .cont2 table{width: 100%;max-height: 475px;text-align: center;font-size: 14px;max-height:440px;margin-top: 20px;}
 			.body .left .cont2 table tr{height: 40px !important;cursor: pointer;transition: .2s;}
 			.body .left .cont2 table  tbody tr:nth-of-type(1){background-color: #097bf8 !important;color: white;}
@@ -71,7 +71,7 @@
 			.body .left .cont2 img{display: block;margin: 0 auto;margin-top: 20px;}
 			/* tuiGuang */
 			.tuiGuang{width: 100%;height:auto;padding-top: 30px;}
-			.tuiGuang p {font-size: 14px;color: #666;margin-top: 20px;}
+			.tuiGuang p {font-size: 14px;color: #666;margin-top: 10px;line-height: 28px;}
 			.tuiGuang p strong{font-weight: normal;}
 			.tuiGuang table{width: 100%;max-height: 475px;text-align: center;font-size: 14px;max-height:440px;margin-top: 20px;}
 			.tuiGuang table tr{height: 40px !important;cursor: pointer;transition: .2s;}
@@ -108,7 +108,7 @@
 			.curriculum table tr td:nth-of-type(5){width: 10%;}
 			.curriculum table tr td:nth-of-type(6){width: 38%;padding: 5px;}
 			.curriculum table tr td:nth-of-type(7){width: 7%;}
-			.curriculum table{background-color: #097bf8;color: white;}
+			.curriculum table{background-color: #097bf8;color: white;font-size: 14px;}
 			.curriculumBox{max-height: 560px;overflow-y: auto;}
 			.curriculumBox table tr td{border: solid #f0f0f0 1px;background-color:white;color: #333;}
 			.curriculumBox button{width: 50px;height: 30px;font-size: 15px;border: 0px;background-color: #ff9700;color: white;border-radius: 20px;outline: none;cursor: pointer;}
@@ -162,3 +162,7 @@
 			.body .left .tuiGuang,
 			.body .left .flagBox,
 			.body .left .pagingBox{background-color: white;padding: 20px;}
+			.body .left .tuiGuang{padding: 1px 20px 20px 20px;}
+			.body .left .section{padding: 20px 20px 0px 20px;}
+			/* cont2 */
+			.cont2{line-height: 28px;font-size: 14px;margin-top: 20px;}

@@ -58,7 +58,7 @@ button{outline: none;cursor: pointer;}
 .hide2Nav2 .spanB{border-left: #d4dce7 2px solid;padding-left: 20px;position: relative;}
 .hide2Nav2 .spanB img{width: 24px;position: absolute;height: 14px;top: 0px;right: -8px;}
 .hide2Nav2 div p strong{display: block;color: #333;display: inline-block;box-sizing: content-box;padding-right: 1px;font-weight: initial;width: 75px;text-align:left;font-size: 15px;font-weight: bold;}
-.nabBackg{background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/navI.png)no-repeat right center;}
+.nabBackg{background: url(../img/home/navI.png)no-repeat right center;}
 .nabBackg>a{color: white;}
 .nabBackgLast{background: none;}
 /* hide2Nav3 */
@@ -127,8 +127,8 @@ button{outline: none;cursor: pointer;}
 .leftTop{width: 100%;height: 93px;color: #333333;font-size: 25px;padding-left: 20px;border-bottom: solid 1px #e1e1e1;}
 .leftTop div:nth-of-type(1){height: 93px;display: flex;align-items: center;width: 37%;float: left;}
 .leftTop div:nth-of-type(1) span{margin: 0px 10px 0px 10px;}
-.leftTop div:nth-of-type(1) span:nth-of-type(1){background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/san/fontBg1.png);background-size: 100% 100%;width: 104px;height: 40px;line-height: 40px;text-align: center;font-weight: bold;color: white;}
-.leftTop div:nth-of-type(1) span:nth-of-type(2){background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/san/fontBg2.png);background-size: 100% 100%;width: 79px;height: 40px;line-height: 40px;text-align: center;font-weight: bold;color: white;}
+.leftTop div:nth-of-type(1) span:nth-of-type(1){background-image: url(../img/san/fontBg1.png);background-size: 100% 100%;width: 104px;height: 40px;line-height: 40px;text-align: center;font-weight: bold;color: white;}
+.leftTop div:nth-of-type(1) span:nth-of-type(2){background-image: url(../img/san/fontBg2.png);background-size: 100% 100%;width: 79px;height: 40px;line-height: 40px;text-align: center;font-weight: bold;color: white;}
 .leftTop div:nth-of-type(2){width:33%;float: left;height: 93px;display:flex;align-items: center;justify-content: center;}
 .leftTop div:nth-of-type(2) img{display: block;margin: 0 auto;}
 .leftTop div:nth-of-type(3){width: 29%;font-size: 14px;height:60px;line-height: 30px;margin-top: 16px;color: #959595;float: right;overflow: hidden;}
@@ -142,11 +142,12 @@ button{outline: none;cursor: pointer;}
 .content1>div{float: left;height: 360px;}
 /* content1 left */
 .content1 .left{width: 30%;}
-.content1 .left dt{color: #097bf8;font-size:18px;font-weight: bold;text-align: center;margin-bottom: 20px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.content1 .left dt{color: #097bf8;font-size:18px;font-weight: bold;text-align: left;margin-bottom: 25px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding-left: 20px;}
 .content1 .left dt a{color: #097bf8;}
 .content1 .left dt a:hover{text-decoration: underline;}
 .content1 .left dd{font-size: 14px;text-align: left;line-height: 30px;height: 30px;width: 90%;margin-left: 5%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .content1 .left dd:hover a{color: #097bf8;}
+.content1 .left dl:nth-of-type(1){margin-bottom: 30px;}
 .content1 .left dl:nth-of-type(2){margin-top: 20px;}
 .content1 .center{width: 45%;}
 .content1 .right{width: 25%;}
@@ -160,11 +161,11 @@ button{outline: none;cursor: pointer;}
 	to{opacity: 1;transform: translateY(0px);}
 }
 .content1 .center .swiper-container{width: 100%;height: 100%;}
-.content1 .center .swiperBtn{background-image:url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/leftac.png);right: 0px;width: 36px;height: 60px;background-size: 100% 100%;transition: 0.3s;}
+.content1 .center .swiperBtn{background-image:url(../img/home/leftac.png);right: 0px;width: 36px;height: 60px;background-size: 100% 100%;transition: 0.3s;}
 .content1 .center .swiper-button-prev{left: 0px;}
-.content1 .center .swiperBtn:nth-of-type(2){background-image:url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/rightac.png);}
-.content1 .center .swiperBtn:hover{background-image:url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/btn-left.png);}
-.content1 .center .swiperBtn:nth-of-type(2):hover{background-image:url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/btn-right.png);}
+.content1 .center .swiperBtn:nth-of-type(2){background-image:url(../img/home/rightac.png);}
+.content1 .center .swiperBtn:hover{background-image:url(../img/home/btn-left.png);}
+.content1 .center .swiperBtn:nth-of-type(2):hover{background-image:url(../img/home/btn-right.png);}
 .content1 .center .swiper-slide.lb1{}
 .content1 .center .swiper-slide p{width: 100%;height: 40px;background-color: rgba(0,0,0,0.3);position: absolute;bottom: 0px;left: 0px;padding: 0px 20px 0px 20px;display: flex;justify-content: space-between;line-height: 40px;color: white;font-size: 15px;}
 .content1 .right{padding: 0px 0px 0px 20px;overflow: hidden;}
@@ -177,8 +178,8 @@ button{outline: none;cursor: pointer;}
 .content1 .right table tr td:hover a{color: #097bf8;}
 .content1 .right table tr td:nth-of-type(2){width: 72px;}
 .content1 .right table tr td:nth-of-type(3){width: 80px;}
-.content1 .right .schoolBox{margin-top:12px;height: 115px;overflow: hidden;}
-.content1 .right .schoolBox p{color: #e13b29;text-align: center;height: 30px;line-height: 30px;}
+.content1 .right .schoolBox{margin-top:18px;height: 120px;overflow: hidden;}
+.content1 .right .schoolBox p{color: #e13b29;text-align: center;height: 30px;line-height: 30px;margin-bottom: 5px;}
 .content1 .right .schoolBox p span{font-size: 18px;color: #333;font-weight: bold;display: inline-block;margin: 0px 10px 0px 10px;cursor: pointer;}
 .content1 .right .schoolBox p span.ac{color:#e13b29;}
 .content1 .right .schoolBox ul{animation: schoolUl 0.5s;}
@@ -201,7 +202,7 @@ button{outline: none;cursor: pointer;}
 /* article-cont1 */
 .article-cont1 .section-cont{width: 420px;float: left;margin-top:30px;}
 .article-cont1 .section-cont:nth-of-type(even){margin-left: 60px;}
-.article-cont1 .section-cont .hade{display: flex;justify-content: space-between;background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/setitle.png) no-repeat bottom left;}
+.article-cont1 .section-cont .hade{display: flex;justify-content: space-between;background: url(../img/home/setitle.png) no-repeat bottom left;}
 .article-cont1 .section-cont .hade a{line-height: 45px;color: #666;margin-right: 5px;}
 .article-cont1 .section-cont .hade a:hover{text-decoration: underline;color: #097bf8;}
 .article-cont1 .section-cont .title{padding: 5px 10px 10px 8px;height: 45px;position: relative;}
@@ -237,41 +238,41 @@ button{outline: none;cursor: pointer;}
 .article-cont2 li div{float: left;cursor: pointer;}
 .article-cont2 li div:nth-of-type(1){width: 30%;border-radius: 50%;border: solid 1px #54576a;height:54px;}
 .article-cont2 li div:nth-of-type(2){width: 70%;height: 100%;font-size: 18px;font-weight: bold;line-height: 30px;padding:7.5px 0px 0px 10px;}
-.article-cont2 ul li:nth-of-type(1) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/lu.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(2) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/xh.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(3) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/niu.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(4) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/n.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(5) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/ss.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(6) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/ying.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(7) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/x.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(8) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/ma.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(9) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/kq.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(10) div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/hg.png) no-repeat center center;}
-.article-cont2 ul li:nth-of-type(1):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/luAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(1).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/luAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(2):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/xhAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(2).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/xhAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(2):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/xhAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(3):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/niuAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(3).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/niuAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(4):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/nAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(4).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/nAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(5):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/ssAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(5).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/ssAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(6):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/yingAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(6).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/yingAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(7):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/xAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(7).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/xAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(8):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/maAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(8).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/maAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(9):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/kqAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(10):hover div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/hgAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
-.article-cont2 ul li:nth-of-type(10).ac div:nth-of-type(1){background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/iconAc/hgAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(1) div:nth-of-type(1){background: url(../img/home/iconAc/lu.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(2) div:nth-of-type(1){background: url(../img/home/iconAc/xh.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(3) div:nth-of-type(1){background: url(../img/home/iconAc/niu.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(4) div:nth-of-type(1){background: url(../img/home/iconAc/n.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(5) div:nth-of-type(1){background: url(../img/home/iconAc/ss.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(6) div:nth-of-type(1){background: url(../img/home/iconAc/ying.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(7) div:nth-of-type(1){background: url(../img/home/iconAc/x.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(8) div:nth-of-type(1){background: url(../img/home/iconAc/ma.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(9) div:nth-of-type(1){background: url(../img/home/iconAc/kq.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(10) div:nth-of-type(1){background: url(../img/home/iconAc/hg.png) no-repeat center center;}
+.article-cont2 ul li:nth-of-type(1):hover div:nth-of-type(1){background: url(../img/home/iconAc/luAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(1).ac div:nth-of-type(1){background: url(../img/home/iconAc/luAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(2):hover div:nth-of-type(1){background: url(../img/home/iconAc/xhAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(2).ac div:nth-of-type(1){background: url(../img/home/iconAc/xhAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(2):hover div:nth-of-type(1){background: url(../img/home/iconAc/xhAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(3):hover div:nth-of-type(1){background: url(../img/home/iconAc/niuAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(3).ac div:nth-of-type(1){background: url(../img/home/iconAc/niuAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(4):hover div:nth-of-type(1){background: url(../img/home/iconAc/nAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(4).ac div:nth-of-type(1){background: url(../img/home/iconAc/nAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(5):hover div:nth-of-type(1){background: url(../img/home/iconAc/ssAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(5).ac div:nth-of-type(1){background: url(../img/home/iconAc/ssAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(6):hover div:nth-of-type(1){background: url(../img/home/iconAc/yingAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(6).ac div:nth-of-type(1){background: url(../img/home/iconAc/yingAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(7):hover div:nth-of-type(1){background: url(../img/home/iconAc/xAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(7).ac div:nth-of-type(1){background: url(../img/home/iconAc/xAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(8):hover div:nth-of-type(1){background: url(../img/home/iconAc/maAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(8).ac div:nth-of-type(1){background: url(../img/home/iconAc/maAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(9):hover div:nth-of-type(1){background: url(../img/home/iconAc/kqAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(10):hover div:nth-of-type(1){background: url(../img/home/iconAc/hgAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
+.article-cont2 ul li:nth-of-type(10).ac div:nth-of-type(1){background: url(../img/home/iconAc/hgAc.png) no-repeat center center,linear-gradient(#ee5745,#e23d2b);border-color: #e94c3a;}
 .article-cont2 .listBox{width: 100%;height: 600px;display: none;animation: cont2HideBox .3s;}
 .article-cont2 .listBox1{display: block;}
 .article-cont2 .section-cont{width: 420px;float: left;margin-top:30px;}
 .article-cont2 .section-cont:nth-of-type(even){margin-left: 60px;}
-.article-cont2 .section-cont .hade{display: flex;justify-content: space-between;background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/setitle.png) no-repeat bottom left;}
+.article-cont2 .section-cont .hade{display: flex;justify-content: space-between;background: url(../img/home/setitle.png) no-repeat bottom left;}
 .article-cont2 .section-cont .hade a{line-height: 45px;color: #333;}
 .article-cont2 .section-cont .hade a:hover{color: #097bf8;}
 .article-cont2 .section-cont .title{padding: 5px 10px 10px 8px;height: 45px;position: relative;}
@@ -362,8 +363,8 @@ button{outline: none;cursor: pointer;}
 .article-cont4-lbBox .lb{position: relative;display: none;margin-top: 40px;}
 .article-cont4-lbBox .lbBox1{display: block;}
 .btnBoxS{position: absolute;background-size: 100% 100%;}
-.swiperBtn1-left{width: 22px;height: 40px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/leftac.png);top: 50%;left: 0px;transform: translateY(-50%);cursor: pointer;}
-.swiperBtn2-right{width: 22px;height: 40px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/rightac.png);top: 50%;right: 0px;transform: translateY(-50%);cursor: pointer;}
+.swiperBtn1-left{width: 22px;height: 40px;background-image: url(../img/home/leftac.png);top: 50%;left: 0px;transform: translateY(-50%);cursor: pointer;}
+.swiperBtn2-right{width: 22px;height: 40px;background-image: url(../img/home/rightac.png);top: 50%;right: 0px;transform: translateY(-50%);cursor: pointer;}
 /* article-cont5 */
 .article-cont5{width: 100%;height: 350px;border: solid 1px #e1e1e1;margin-top: 30px;padding: 10px 20px 10px 20px;}
 .article-cont5 .top{width: 100%;height: 40px;line-height: 40px;border-bottom: solid 1px #e1e1e1;}
@@ -374,9 +375,9 @@ button{outline: none;cursor: pointer;}
 .article-cont5 .cont5-content{display: flex;justify-content: space-between;margin-top: 20px;animation:articleCont5 .3s ease-in-out;}
 .article-cont5 .cont5-content li{float: left;text-align: center;font-size: 16px;color: #333;}
 .article-cont5 .cont5-content li img{margin-bottom: 10px;width: 100%;height: 164px;}
-.article-cont5 .cont51{background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/fly.png)no-repeat center;height:180px;position: relative;}
-.article-cont5 .cont51 p:nth-of-type(even){background-image:  url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/f3.png);line-height: 38px;}
-.article-cont5 .cont51 p{width: 100px;height: 30px;background-image:  url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/f2.jpg);background-size: 100% 100%;position: absolute;color: white;line-height: 23px;text-align: center;font-size: 13px;animation: cont51P .5s;}
+.article-cont5 .cont51{background: url(../img/home/fly.png)no-repeat center;height:180px;position: relative;}
+.article-cont5 .cont51 p:nth-of-type(even){background-image:  url(../img/home/f3.png);line-height: 38px;}
+.article-cont5 .cont51 p{width: 100px;height: 30px;background-image:  url(../img/home/f2.jpg);background-size: 100% 100%;position: absolute;color: white;line-height: 23px;text-align: center;font-size: 13px;animation: cont51P .5s;}
 .article-cont5 .cont51 p:nth-of-type(1){top: 25px;left: -13px;}
 .article-cont5 .cont51 p:nth-of-type(2){bottom: 25px;left: 85px;}
 .article-cont5 .cont51 p:nth-of-type(3){top: 90px;left: 218px;}
@@ -416,11 +417,11 @@ button{outline: none;cursor: pointer;}
 .aside .title3{margin-top: 39px;}
 .aside .title4{margin-top: 55px;}
 /* aside-content1 */
-.aside-content1{width: 100%;height: 250px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/asBg.png);background-size: 100% 100%;margin-top: 40px;position: relative;}
+.aside-content1{width: 100%;height: 250px;background-image: url(../img/home/asBg.png);background-size: 100% 100%;margin-top: 40px;position: relative;}
 .aside-content1 div:nth-of-type(1){height: auto;width:auto;position: absolute;top: 64px;left: 17px;}
 .aside-content1 div:nth-of-type(2){height: 90px;width: 148px;position: absolute;top: 73px;left: 131px;padding-left:5px;}
 .aside-content1 div:nth-of-type(2) h4{text-align: center;height: 35px;color: #e3402e;font-size: 16px;}
-.aside-content1 div:nth-of-type(2) a{display: inline-block;width: 50%;height: 30px;padding-left:7px;background: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/dian.png)no-repeat left center;font-size: 14px;line-height: 30px;box-sizing: border-box;float: left;}
+.aside-content1 div:nth-of-type(2) a{display: inline-block;width: 50%;height: 30px;padding-left:7px;background: url(../img/home/dian.png)no-repeat left center;font-size: 14px;line-height: 30px;box-sizing: border-box;float: left;}
 .aside-content1 div:nth-of-type(2) a:hover{color: #e3402e;}
 .aside-content1 div:nth-of-type(3){font-size: 17px;position: absolute;bottom: 40px;left: 25px;}
 .cont1-iconBtn{text-align: center;margin-top: 20px;}
@@ -433,7 +434,7 @@ button{outline: none;cursor: pointer;}
 	to{opacity: 1;transform: translateX(0%);}
 }
 /* aside-content2 */
-.aside-content2{width: 100%;height:211px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/gongzh.png);background-size: 100% 100%;margin-top: 30px;overflow: hidden;position: relative;}
+.aside-content2{width: 100%;height:211px;background-image: url(../img/home/gongzh.png);background-size: 100% 100%;margin-top: 30px;overflow: hidden;position: relative;}
 .aside-content2>div:nth-of-type(1){margin-top:130px;width: 100%;text-align: center;}
 .aside-content2 a{margin: 0px 10px 0px 10px;color: #333;font-size: 15px;}
 .aside-content2 p{height: 30px;line-height: 30px;color: #243da4;font-size: 18px;margin-top: 15px;user-select: none;}
@@ -441,7 +442,7 @@ button{outline: none;cursor: pointer;}
 /* aside-content2-hidebox */
 .aside-content2-hidebox{position: absolute;top: 15px;left: 50%;width:140px;height: 140px;border: 3px solid #e6c7ac;border-radius: 5px;transform: translateX(-50%);background-color: white;display: flex;justify-content: center;align-items: center;display: none;animation: ewm1 .3s;}
 /* aside-content3 */
-.aside-content3{width: 100%;height:211px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/gongzh2.png);background-size: 100% 100%;margin-top: 30px;overflow: hidden;position: relative;}
+.aside-content3{width: 100%;height:211px;background-image: url(../img/home/gongzh2.png);background-size: 100% 100%;margin-top: 30px;overflow: hidden;position: relative;}
 .aside-content3>div:nth-of-type(1){margin-top:130px;width: 100%;text-align: center;}
 .aside-content3 a{margin: 0px 10px 0px 10px;color: #333;font-size: 15px;}
 .aside-content3 p{height: 30px;line-height: 30px;color: #243da4;font-size: 18px;margin-top: 15px;user-select: none;}
@@ -518,16 +519,16 @@ button{outline: none;cursor: pointer;}
 	from{opacity: 0;transform: translateX(5%);}
 	to{opacity: 1;transform: translateX(0);}
 }
-.aside-spBox p{margin-top: 20px;font-size: 15px;}
+.aside-spBox p{margin-top: 20px;font-size: 15px;height: 40px;overflow: hidden;}
 .aside-spBox>a{display:block;margin: 0 auto;background-color:#097bf8;color: white;padding: 5px 25px 5px 25px;border: 0px;border-radius: 15px;font-size: 16px;margin-top: 15px;text-align: center;width: 180px;}
 /* aside-fontBox */
-.aside-fontBox{margin-top: 65px;padding: 15px 15px 20px 15px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/subj-bg4.png);background-color: 100% 100%;}
+.aside-fontBox{margin-top: 65px;padding: 15px 15px 20px 15px;background-image: url(../img/home/subj-bg4.png);background-color: 100% 100%;}
 .aside-fontBox h3{text-align: center;font-size: 18px;}
 .aside-fontBox h4{color: #ff7800;font-size:18px;margin-top: 20px;}
 .aside-fontBox p{margin-top: 10px;font-size: 16px;line-height: 30px;color: #666;}
 .aside-fontBox p strong{color: #333;}
 /* aside-jmBox */
-.aside-jmBox{margin-top: 30px;padding: 15px 15px 10px 15px;background-image: url(http://cacheimg.kuakao.com/kuakaoVip/Official/img/home/subj-bg4.png);background-color: 100% 100%;height: 350px;}
+.aside-jmBox{margin-top: 30px;padding: 15px 15px 10px 15px;background-image: url(../img/home/subj-bg4.png);background-color: 100% 100%;height: 350px;}
 .aside-jmBox h1{text-align: center;font-size: 30px;}
 .aside-jmBox button{display:block;width: 100%;background-color: #ff7800;color: white;font-weight: bold;height: 60px;font-size: 30px;border: 0px;border-radius: 15px;margin-top: 15px;}
 .aside-jmBox h4{font-size: 20px;color: #ff7800;margin-top: 10px;margin-bottom: 10px;}

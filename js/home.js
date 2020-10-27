@@ -56,9 +56,9 @@ $(function() {
 	dateTime();
 
 	function countDown() {/* 考研年份及倒计时 */
-		let stat = new Date().getTime();
-		let end = new Date("2020/12/27").getTime();
-		let day = Math.floor((end - stat) / 1000 / 60 / 60 / 24);
+		var stat = new Date().getTime();
+		var end = new Date("2020/12/27").getTime();
+		var day = Math.floor((end - stat) / 1000 / 60 / 60 / 24);
 		$("#time").text(day);
 		$("#year-span").text("2021");
 	}
@@ -200,18 +200,29 @@ $(function() {
 		}
 	}
 	theTime();
-	function leftTop(){/* 滚动 */
+	function leftTop(){
+	var len2=$(".leftTop div").eq(2).find("li").length;
+		for(let i=0; i<len2; i++){
+			$(".leftTop div").eq(2).find("li").eq(i).clone().appendTo(".leftTop div ul");
+		}
 		var len=$(".leftTop div").eq(2).find("li").length;
 		var num=0;
 		if(len>2){
 			setInterval(function(){
 				num++
 				$(".leftTop div").eq(2).find("ul").css({"transform":"translateY(-"+(num*30)+"px)","transition":".3s"})
-				if(num>len-2){
-					$(".leftTop div").eq(2).find("ul").css({"transform":"translateY(0px)","transition":"initial"})
-					num=0;
+				
+				if(num>len-len2){
+					var dom=$(".leftTop div").eq(2).find("ul");
+					dom.css({"transform":"translateY(0px)","transition":"initial"});
+					var str=dom.css("transform").replace(/[^0-9\-,]/g,'').split(",")[5];
+					console.log(str)
+					if(str == 0){
+						dom.css({"transform":"translateY(-30px)","transition":".3s"})
+					}
+					num=1;
 				}
-			},1000)
+			},1500)
 		}
 	}
 	leftTop();

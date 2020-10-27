@@ -13,7 +13,7 @@
 			.logoBox .logoImg{float: left;}
 			.searchBox{width: 700px;height: 117px;float: left;border: 1px solid transparent;}
 			.searchBox .sBox{width: 540px;height: 45px;margin-top: 26px;margin-left: 70px;position: relative;}
-			.searchBox .sBox input{width: 100%;height: 100%;border: 2px solid #097bf8;padding-right: 15px;padding-left: 15px;font-size:16px;}
+			.searchBox .sBox input{width: 100%;height: 100%;border: 2px solid #097bf8;padding-right: 15px;padding-left: 15px;font-size:14px;}
 			.searchBox .kuai{width: 55px;height: 45px;position: absolute;top: 0px;right: -55px;cursor:pointer;background-image: url(../img/er/sousuo.png);background-size: 100% 100%;}
 			.searchBox .sBox2{width: 570px;height: 35px;margin-left: 80px;line-height: 35px;}
 			.sBox2 li{float: left;box-sizing: content-box;padding: 0px 8px 0px 8px;font-size: 15px;color: #999999;cursor: pointer;}

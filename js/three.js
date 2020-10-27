@@ -17,6 +17,7 @@ $(function(){
 					let rq=year+"."+month+"."+day;
 					$(".tTime").text(rq);
 					$(".tWeek").text(days);
+					$('.cont2 table:last').hide();
 				}
 				dateTime();
 				function crumbs(){//添加地图箭头
