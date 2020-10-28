@@ -132,7 +132,7 @@
 			.body .ditu a:hover{text-decoration: underline !important;}
 			/* right */
 			.body .right h3{background: url(../img/er/right-icon.png) no-repeat left center;padding-left: 10px;font-size: 20px;}
-			.body .right>img{margin-top: 20px;}
+			.body .right>a>img{margin-top: 20px;}
 			.right-box1{margin-top: 0px;background-color: white;padding: 20px;}
 			.right-box1 ul{margin-top: 10px;display: flex;justify-content: space-between;flex-wrap: wrap;}
 			.right-box1 li{height: 30px;line-height: 30px;padding: 0px 20px 0px 20px;background-color: #f3f3f3;color: #757575;display: inline-block;font-size: 14px;border-radius: 20px;margin-top: 10px;transition: .3s ease-in-out;text-align: center;}
