@@ -1,4 +1,12 @@
 $(function() {
+	function goPAGE(mcurl) {
+	    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+	        window.location.href = mcurl;  //跳转到wap端的网址
+	    }
+	}
+	var curl = window.location.href;
+	var mcurl = curl.replace('//www', '//wap');
+	goPAGE(mcurl);
 	var swiper = new Swiper('.center .swiper-container', {
 		pagination: '.swiper-pagination',
 		nextButton: '.swiper-button-next',
